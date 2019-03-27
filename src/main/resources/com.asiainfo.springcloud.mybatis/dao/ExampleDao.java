@@ -1,4 +1,4 @@
-package com.asiainfo.springcloud.mybatis.dao;
+package org.github.mybatisextend.mybatis.dao;
 
 import org.apache.ibatis.annotations.Update;
 import org.github.mybatisextend.mybatis.crud.annotation.BaseMethod;

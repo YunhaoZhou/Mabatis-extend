@@ -1,9 +1,6 @@
 package org.github.mybatisextend.mybatis.multitydatasource.session;
 
 import com.alibaba.druid.pool.DruidDataSource;
-import com.asiainfo.springcloud.mybatis.autoconfigura.MultitybatisConfiguration;
-import com.asiainfo.springcloud.mybatis.multitydatasource.annotation.MultityDataSource;
-import com.asiainfo.springcloud.mybatis.multitydatasource.datasource.MultityDataSourceConf;
 import org.apache.ibatis.cursor.Cursor;
 import org.apache.ibatis.exceptions.PersistenceException;
 import org.apache.ibatis.executor.BatchResult;
@@ -11,6 +8,9 @@ import org.apache.ibatis.logging.Log;
 import org.apache.ibatis.logging.LogFactory;
 import org.apache.ibatis.reflection.ExceptionUtil;
 import org.apache.ibatis.session.*;
+import org.github.mybatisextend.mybatis.autoconfigura.MultitybatisConfiguration;
+import org.github.mybatisextend.mybatis.multitydatasource.annotation.MultityDataSource;
+import org.github.mybatisextend.mybatis.multitydatasource.datasource.MultityDataSourceConf;
 import org.mybatis.spring.MyBatisExceptionTranslator;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.SqlSessionTemplate;

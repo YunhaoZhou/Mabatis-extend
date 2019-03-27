@@ -1,12 +1,12 @@
 package org.github.mybatisextend.mybatis.autoconfigura;
 
 
-import com.asiainfo.springcloud.mybatis.multitydatasource.datasource.MultityDataSourceConf;
-import com.asiainfo.springcloud.mybatis.multitydatasource.session.MultityDataSourceSessionTemplate;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.mapping.DatabaseIdProvider;
 import org.apache.ibatis.plugin.Interceptor;
 import org.apache.ibatis.session.SqlSessionFactory;
+import org.github.mybatisextend.mybatis.multitydatasource.datasource.MultityDataSourceConf;
+import org.github.mybatisextend.mybatis.multitydatasource.session.MultityDataSourceSessionTemplate;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.mybatis.spring.boot.autoconfigure.ConfigurationCustomizer;
@@ -146,8 +146,8 @@ public class MultitybatisConfiguration implements InitializingBean {
 
     @Scope("prototype")
     @Bean
-    public static com.asiainfo.springcloud.mybatis.multitydatasource.Configuration getMultityConfigurationInvocationHandler(){
-        return new com.asiainfo.springcloud.mybatis.multitydatasource.Configuration(configuration);
+    public static org.github.mybatisextend.mybatis.multitydatasource.Configuration getMultityConfigurationInvocationHandler(){
+        return new org.github.mybatisextend.mybatis.multitydatasource.Configuration(configuration);
     }
 
 
@@ -247,7 +247,7 @@ public class MultitybatisConfiguration implements InitializingBean {
 
 //    @Primary
 //    @Bean
-//    public SqlSessionFactory getDataSourceSessionFactory(MultityDataSourceConf mybatisConf,com.asiainfo.springcloud.mybatis.multitydatasource.Configuration configuration)throws Exception{
+//    public SqlSessionFactory getDataSourceSessionFactory(MultityDataSourceConf mybatisConf,org.github.mybatisextend.mybatis.multitydatasource.Configuration configuration)throws Exception{
 //        SqlSessionFactoryBean sqlSessionFactoryBean = new SqlSessionFactoryBean();
 //        sqlSessionFactoryBean.setDataSource(mybatisConf.getDefaultDatasource());
 //        sqlSessionFactoryBean.setConfiguration(configuration);

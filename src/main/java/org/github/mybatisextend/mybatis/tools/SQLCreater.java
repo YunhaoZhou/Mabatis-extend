@@ -1,7 +1,7 @@
 package org.github.mybatisextend.mybatis.tools;
 
 
-import com.asiainfo.springcloud.mybatis.crud.annotation.BaseMethod;
+import org.github.mybatisextend.mybatis.crud.annotation.BaseMethod;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

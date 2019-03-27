@@ -1,9 +1,9 @@
-package com.asiainfo.springcloud.mybatis.configuration;
+package org.github.mybatisextend.mybatis.configuration;
 
 
-import com.asiainfo.springcloud.mybatis.crud.CrudInterceptor;
-import com.asiainfo.springcloud.mybatis.tablesplit.Strategy;
-import com.asiainfo.springcloud.mybatis.tablesplit.TableSplitInterceptor;
+import org.github.mybatisextend.mybatis.crud.CrudInterceptor;
+import org.github.mybatisextend.mybatis.tablesplit.Strategy;
+import org.github.mybatisextend.mybatis.tablesplit.TableSplitInterceptor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

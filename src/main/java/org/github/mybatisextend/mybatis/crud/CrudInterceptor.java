@@ -1,7 +1,7 @@
 package org.github.mybatisextend.mybatis.crud;
 
-import com.asiainfo.springcloud.mybatis.crud.annotation.Crud;
-import com.asiainfo.springcloud.mybatis.crud.sql.SQLCreater;
+import org.github.mybatisextend.mybatis.crud.annotation.Crud;
+import org.github.mybatisextend.mybatis.crud.sql.SQLCreater;
 import org.apache.ibatis.builder.SqlSourceBuilder;
 import org.apache.ibatis.cache.CacheKey;
 import org.apache.ibatis.executor.Executor;

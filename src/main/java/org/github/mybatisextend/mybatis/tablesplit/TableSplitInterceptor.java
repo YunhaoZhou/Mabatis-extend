@@ -2,7 +2,7 @@ package org.github.mybatisextend.mybatis.tablesplit;
 
 import com.alibaba.druid.sql.visitor.SchemaStatVisitor;
 import com.alibaba.druid.stat.TableStat;
-import com.asiainfo.springcloud.mybatis.tools.DruidSqlParser;
+import org.github.mybatisextend.mybatis.tools.DruidSqlParser;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.ibatis.executor.statement.StatementHandler;

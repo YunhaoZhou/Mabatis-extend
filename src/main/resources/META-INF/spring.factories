@@ -1,3 +1,3 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.asiainfo.springcloud.mybatis.autoconfigura.MultitybatisConfiguration
-com.asiainfo.springcloud.mybatis.tools.ApplicationContextUtil
+org.github.mybatisextend.mybatis.autoconfigura.MultitybatisConfiguration
+org.github.mybatisextend.mybatis.tools.ApplicationContextUtil
