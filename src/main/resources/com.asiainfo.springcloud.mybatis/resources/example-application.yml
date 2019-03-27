@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    #默认数据源   必须存在
+    driverClassName: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=NO)(FAILOVER=yes)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=xxx.xxx.xxx.xxx)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=xxxx)(INSTANCE_NAME=xxxx)(FAILOVER_MODE=(TYPE=session)(METHOD=basic)(RETRIES=4)(DELAY=1)))))
+    username: XXX
+    password: XXX
+  #多数据源列表  name为数据源名称，带Dao层接口加注解标识数据源
+  #e.g  @MultityDataSource(dataSourceName = "cmkt")
+  #不加注解或注解不指明dataSourceName时，动态
+
+mybatis:
+  datasourcelist:
+  - name: XXX
+    driverClassName: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=NO)(FAILOVER=yes)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=xxx.xxx.xxx.xxx)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=xxxx)(INSTANCE_NAME=xxxx)(FAILOVER_MODE=(TYPE=session)(METHOD=basic)(RETRIES=4)(DELAY=1)))))
+    username: XXX
+    password: XXX
+  - name: XXX
+    driverClassName: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=NO)(FAILOVER=yes)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=xxx.xxx.xxx.xxx)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=xxxx)(INSTANCE_NAME=xxxx)(FAILOVER_MODE=(TYPE=session)(METHOD=basic)(RETRIES=4)(DELAY=1)))))
+    username: XXX
+    password: XXX

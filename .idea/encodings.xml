@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/github/mybatisextend/mybatis/autoconfigura/MultitybatisConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/github/mybatisextend/mybatis/crud/CrudInterceptor.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/github/mybatisextend/mybatis/crud/annotation/BaseMethod.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/github/mybatisextend/mybatis/crud/annotation/Crud.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/github/mybatisextend/mybatis/crud/sql/SQLCreater.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/github/mybatisextend/mybatis/multitydatasource/Configuration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/github/mybatisextend/mybatis/multitydatasource/annotation/MultityDataSource.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/github/mybatisextend/mybatis/multitydatasource/datasource/MultityDataSourceConf.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/github/mybatisextend/mybatis/multitydatasource/session/MultityDataSourceSessionTemplate.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/github/mybatisextend/mybatis/tablesplit/Strategy.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/github/mybatisextend/mybatis/tablesplit/TableSplitInterceptor.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/github/mybatisextend/mybatis/tablesplit/TableSplitStrategy.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/github/mybatisextend/mybatis/tools/ApplicationContextUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/github/mybatisextend/mybatis/tools/Constant.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/github/mybatisextend/mybatis/tools/DruidSqlParser.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/github/mybatisextend/mybatis/tools/SQLCreater.java" charset="UTF-8" />
+  </component>
+</project>
